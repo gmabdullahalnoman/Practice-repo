@@ -23,11 +23,22 @@ class Result {
      *  2. INTEGER d
      *  3. INTEGER m
      */
-
+    // Method birthday(s, d, m)
     public static int birthday(List<Integer> s, int d, int m) {
         // Write your code here
-    return 0;
-    }
+
+/*        count = 0
+        for i = 0 TO s.length - m
+        sum = 0
+        for j = i TO i + m - 1
+        sum = sum + s[j]
+        end for
+        if sum == d
+                count = count + 1
+        end if
+        end for */
+    return 0; // RETURN count
+    } //END FUNCTION
 
 }
 public class Main {
