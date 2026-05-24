@@ -27,17 +27,17 @@ class Result {
     public static int birthday(List<Integer> s, int d, int m) {
         // Write your code here
 
-/*        count = 0
-        for i = 0 TO s.length - m
-        sum = 0
-        for j = i TO i + m - 1
-        sum = sum + s[j]
-        end for
-        if sum == d
-                count = count + 1
-        end if
-        end for */
-    return 0; // RETURN count
+       int count = 0;
+        for (int i = 0; i<= s.size() - m; i++){
+        int sum = 0;
+        for (int j = i; j < i + m ; j++){
+        sum = sum + s.get(j);
+        } //end for
+        if (sum == d){
+                count = count + 1;
+        } //end if
+        } //end for
+    return count; // RETURN count
     } //END FUNCTION
 
 }
