@@ -15,11 +15,22 @@ class Result {
      *  2. INTEGER k
      *  3. INTEGER_ARRAY ar
      */
-
+    // Method divisibleSumPairs(n, k, arr)
     public static int divisibleSumPairs(int n, int k, List<Integer> ar) {
         // Write your code here
-        return 0;
-    }
+        /*
+    int count = 0
+    for i = 0 To n - 1
+        for j = i + 1 To n - 1
+            sum = arr[i] + arr[j]
+            if sum MOD k == 0
+                count = count + 1
+            end if
+        end for
+    end for
+         */
+        return 0; //return int count
+    } // end function
 }
 public class Main {
     static void main()throws IOException {
